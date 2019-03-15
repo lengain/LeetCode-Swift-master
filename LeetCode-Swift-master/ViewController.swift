@@ -12,6 +12,7 @@ class ViewController: UITableViewController {
     
     let dataSource : [[String : String]] = [["title":"Two Sum","className":"TwoSumViewController"],
                                             ["title":"Add Two Numbers","className":"AddTwoNumbersViewController"],
+                                            ["title":"Longest Substring Without Repeating Characters","className":"LongestSubstringViewController"],
                                             ]
     let UITableViewCellReuseId = "ViewController.UITableViewCell"
     
@@ -23,6 +24,7 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: UITableViewCellReuseId, for: indexPath)
+        cell.textLabel?.adjustsFontSizeToFitWidth = true
         cell.textLabel?.text = self.dataSource[indexPath.row]["title"]
         return cell
     }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC392833223A385100E23E3A /* LNBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC392832223A385100E23E3A /* LNBaseViewController.swift */; };
+		EC392835223A4AC300E23E3A /* LongestSubstringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC392834223A4AC300E23E3A /* LongestSubstringViewController.swift */; };
 		ECD2C7BC21EC716600C21242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2C7BB21EC716600C21242 /* AppDelegate.swift */; };
 		ECD2C7BE21EC716600C21242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2C7BD21EC716600C21242 /* ViewController.swift */; };
 		ECD2C7C121EC716600C21242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD2C7BF21EC716600C21242 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		EC392832223A385100E23E3A /* LNBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNBaseViewController.swift; sourceTree = "<group>"; };
+		EC392834223A4AC300E23E3A /* LongestSubstringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringViewController.swift; sourceTree = "<group>"; };
 		ECD2C7B821EC716600C21242 /* LeetCodeSwiftMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSwiftMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD2C7BB21EC716600C21242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECD2C7BD21EC716600C21242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				ECD2C7F221EC754600C21242 /* TwoSumViewController.swift */,
 				ECDC922D21EC8DAC00C5FE89 /* AddTwoNumbersViewController.swift */,
 				EC392832223A385100E23E3A /* LNBaseViewController.swift */,
+				EC392834223A4AC300E23E3A /* LongestSubstringViewController.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				EC392833223A385100E23E3A /* LNBaseViewController.swift in Sources */,
 				ECDC922E21EC8DAC00C5FE89 /* AddTwoNumbersViewController.swift in Sources */,
 				ECD2C7BC21EC716600C21242 /* AppDelegate.swift in Sources */,
+				EC392835223A4AC300E23E3A /* LongestSubstringViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
