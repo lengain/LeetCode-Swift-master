@@ -10,9 +10,10 @@ import UIKit
 
 class ViewController: UITableViewController {
     
-    let dataSource : [[String : String]] = [["title":"Two Sum","className":"TwoSumViewController"],
-                                            ["title":"Add Two Numbers","className":"AddTwoNumbersViewController"],
-                                            ["title":"Longest Substring Without Repeating Characters","className":"LongestSubstringViewController"],
+    let dataSource : [[String : String]] = [["title":"1. Two Sum","className":"TwoSumViewController"],
+                                            ["title":"2. Add Two Numbers","className":"AddTwoNumbersViewController"],
+                                            ["title":"3. Longest Substring Without Repeating Characters","className":"LongestSubstringViewController"],
+                                            ["title":"4. Median of Two Sorted Arrays","className":"TwoSortedArrayMedianViewController"]
                                             ]
     let UITableViewCellReuseId = "ViewController.UITableViewCell"
     
