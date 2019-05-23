@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		335C17F2229573B200182641 /* LongestPalindromicSubstringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C17F1229573B200182641 /* LongestPalindromicSubstringViewController.swift */; };
 		EC392833223A385100E23E3A /* LNBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC392832223A385100E23E3A /* LNBaseViewController.swift */; };
 		EC392835223A4AC300E23E3A /* LongestSubstringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC392834223A4AC300E23E3A /* LongestSubstringViewController.swift */; };
 		EC392839223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC392838223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		335C17F1229573B200182641 /* LongestPalindromicSubstringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstringViewController.swift; sourceTree = "<group>"; };
 		EC392832223A385100E23E3A /* LNBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNBaseViewController.swift; sourceTree = "<group>"; };
 		EC392834223A4AC300E23E3A /* LongestSubstringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringViewController.swift; sourceTree = "<group>"; };
 		EC392838223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSortedArrayMedianViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				EC392832223A385100E23E3A /* LNBaseViewController.swift */,
 				EC392834223A4AC300E23E3A /* LongestSubstringViewController.swift */,
 				EC392838223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift */,
+				335C17F1229573B200182641 /* LongestPalindromicSubstringViewController.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335C17F2229573B200182641 /* LongestPalindromicSubstringViewController.swift in Sources */,
 				ECD2C7F321EC754600C21242 /* TwoSumViewController.swift in Sources */,
 				ECD2C7BE21EC716600C21242 /* ViewController.swift in Sources */,
 				EC392833223A385100E23E3A /* LNBaseViewController.swift in Sources */,
@@ -462,7 +466,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lengian.LeetCode;
 				PRODUCT_NAME = LeetCodeSwiftMaster;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -481,7 +485,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lengian.LeetCode;
 				PRODUCT_NAME = LeetCodeSwiftMaster;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
