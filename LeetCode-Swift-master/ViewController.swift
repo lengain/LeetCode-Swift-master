@@ -16,6 +16,7 @@ class ViewController: UITableViewController {
                                             ["title":"? 4. Median of Two Sorted Arrays","className":"TwoSortedArrayMedianViewController"],
                                             ["title":"5. Longest Palindromic Substring","className":"LongestPalindromicSubstringViewController"],
                                             ["title":"11. Container With Most Water","className":"LNContainerWaterViewController"],
+                                            ["title":"15. 3 Sum","className":"ThreeSumViewController"],
                                             ]
     let UITableViewCellReuseId = "ViewController.UITableViewCell"
     
