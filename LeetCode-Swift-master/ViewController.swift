@@ -8,15 +8,29 @@
 
 import UIKit
 
+class SubjectModel: NSObject {
+    var title : String?
+    var className : String?
+    
+    class func initWith(title : String, className : String) -> SubjectModel {
+        let model = SubjectModel()
+        model.title = title
+        model.className = className
+        return model
+    }
+}
+
 class ViewController: UITableViewController {
     
-    let dataSource : [[String : String]] = [["title":"1. Two Sum","className":"TwoSumViewController"],
-                                            ["title":"2. Add Two Numbers","className":"AddTwoNumbersViewController"],
-                                            ["title":"3. Longest Substring Without Repeating Characters","className":"LongestSubstringViewController"],
-                                            ["title":"? 4. Median of Two Sorted Arrays","className":"TwoSortedArrayMedianViewController"],
-                                            ["title":"5. Longest Palindromic Substring","className":"LongestPalindromicSubstringViewController"],
-                                            ["title":"11. Container With Most Water","className":"LNContainerWaterViewController"],
-                                            ["title":"15. 3 Sum","className":"ThreeSumViewController"],
+    let dataSource : [SubjectModel] = [
+                                            SubjectModel.initWith(title: "1. Two Sum", className: "TwoSumViewController"),
+                                            SubjectModel.initWith(title: "2. Add Two Numbers", className: "AddTwoNumbersViewController"),
+                                            SubjectModel.initWith(title: "3. Longest Substring Without Repeating Characters", className: "LongestSubstringViewController"),
+                                            SubjectModel.initWith(title: "? 4. Median of Two Sorted Arrays", className: "TwoSortedArrayMedianViewController"),
+                                            SubjectModel.initWith(title: "5. Longest Palindromic Substring", className: "LongestPalindromicSubstringViewController"),
+                                            SubjectModel.initWith(title: "11. Container With Most Water", className: "LNContainerWaterViewController"),
+                                            SubjectModel.initWith(title: "15. 3 Sum", className: "ThreeSumViewController"),
+                                            SubjectModel.initWith(title: "16. 3 Sum closest", className: "ThressSumClosestViewController"),
                                             ]
     let UITableViewCellReuseId = "ViewController.UITableViewCell"
     
@@ -29,7 +43,7 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: UITableViewCellReuseId, for: indexPath)
         cell.textLabel?.adjustsFontSizeToFitWidth = true
-        cell.textLabel?.text = self.dataSource[indexPath.row]["title"]
+        cell.textLabel?.text = self.dataSource[indexPath.row].title
         return cell
     }
     
@@ -38,7 +52,7 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let className : NSString = self.dataSource[indexPath.row]["className"]! as NSString
+        let className : NSString = self.dataSource[indexPath.row].className! as NSString
         let detailViewController = self.viewController(vcName: className as String);
         detailViewController?.hidesBottomBarWhenPushed = true
         if detailViewController != nil {
