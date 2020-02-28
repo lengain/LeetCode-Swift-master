@@ -11,6 +11,7 @@
 		33B582EA23682DC6007146BA /* LNContainerWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B582E923682DC6007146BA /* LNContainerWaterViewController.swift */; };
 		33B582EC23692601007146BA /* ThreeSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B582EB23692601007146BA /* ThreeSumViewController.swift */; };
 		33B582EE2369888D007146BA /* ThressSumClosestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B582ED2369888D007146BA /* ThressSumClosestViewController.swift */; };
+		33B582F0236ADDC1007146BA /* FourSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B582EF236ADDC1007146BA /* FourSumViewController.swift */; };
 		EC392833223A385100E23E3A /* LNBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC392832223A385100E23E3A /* LNBaseViewController.swift */; };
 		EC392835223A4AC300E23E3A /* LongestSubstringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC392834223A4AC300E23E3A /* LongestSubstringViewController.swift */; };
 		EC392839223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC392838223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift */; };
@@ -47,6 +48,7 @@
 		33B582E923682DC6007146BA /* LNContainerWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNContainerWaterViewController.swift; sourceTree = "<group>"; };
 		33B582EB23692601007146BA /* ThreeSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumViewController.swift; sourceTree = "<group>"; };
 		33B582ED2369888D007146BA /* ThressSumClosestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThressSumClosestViewController.swift; sourceTree = "<group>"; };
+		33B582EF236ADDC1007146BA /* FourSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSumViewController.swift; sourceTree = "<group>"; };
 		EC392832223A385100E23E3A /* LNBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNBaseViewController.swift; sourceTree = "<group>"; };
 		EC392834223A4AC300E23E3A /* LongestSubstringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringViewController.swift; sourceTree = "<group>"; };
 		EC392838223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSortedArrayMedianViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				33B582E923682DC6007146BA /* LNContainerWaterViewController.swift */,
 				33B582EB23692601007146BA /* ThreeSumViewController.swift */,
 				33B582ED2369888D007146BA /* ThressSumClosestViewController.swift */,
+				33B582EF236ADDC1007146BA /* FourSumViewController.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				ECD2C7F321EC754600C21242 /* TwoSumViewController.swift in Sources */,
 				ECD2C7BE21EC716600C21242 /* ViewController.swift in Sources */,
 				EC392833223A385100E23E3A /* LNBaseViewController.swift in Sources */,
+				33B582F0236ADDC1007146BA /* FourSumViewController.swift in Sources */,
 				ECDC922E21EC8DAC00C5FE89 /* AddTwoNumbersViewController.swift in Sources */,
 				ECD2C7BC21EC716600C21242 /* AppDelegate.swift in Sources */,
 				EC392835223A4AC300E23E3A /* LongestSubstringViewController.swift in Sources */,
