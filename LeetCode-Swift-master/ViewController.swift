@@ -31,7 +31,9 @@ class ViewController: UITableViewController {
                                             SubjectModel.initWith(title: "11. Container With Most Water", className: "LNContainerWaterViewController"),
                                             SubjectModel.initWith(title: "15. 3 Sum", className: "ThreeSumViewController"),
                                             SubjectModel.initWith(title: "16. 3 Sum closest", className: "ThressSumClosestViewController"),
-                                            SubjectModel.initWith(title: "18. 4 Sum", className: "FourSumViewController")
+                                            SubjectModel.initWith(title: "18. 4 Sum", className: "FourSumViewController"),
+                                            SubjectModel.initWith(title: "26. 删除排序数组中额重复项", className: "Q26ViewController")
+
                                             ]
     let UITableViewCellReuseId = "ViewController.UITableViewCell"
     
