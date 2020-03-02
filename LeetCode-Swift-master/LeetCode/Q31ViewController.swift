@@ -14,7 +14,7 @@ class Q31ViewController: LNBaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        var nums = [1,2,3]
+        var nums = [4,2,0,2,3,2,0]
         self.nextPermutation(&nums)
         print(nums)
         
@@ -27,24 +27,39 @@ class Q31ViewController: LNBaseViewController {
         print(nums3)
     }
     
+    ///解题思路 找到合适的数，交换位置，然后排序剩下的数
+    ///合适的数要循环查找
+    ///比如先比较个位十位，再比较个位百位，十位百位，再比较个位千位，十位千位，百位千位
     func nextPermutation(_ nums: inout [Int]) {
         if nums.count <= 0 {
             return
         }
-        for i in 0 ..< nums.count {
-            for j in 0 ..< nums.count - i {
-                let index = nums.count  - i - 1
-                let jIndex = index - j - 1
-                if jIndex >= 0 {
-                    if nums[index] > nums[jIndex] {
-                        let temp = nums[index]
-                        nums[index] = nums[jIndex]
-                        nums[jIndex] = temp
-                        return
+        let length = nums.count
+        var compareLength = 1
+        for _ in 0 ..< length {
+            for m in length - compareLength - 1 ..< length - 1 {
+                let index = length - 1 - (m - (length - compareLength - 1))
+                let compare = length - compareLength - 1
+                if compare >= 0 && nums[index] > nums[compare] {
+
+                    let temp = nums[index]
+                    nums[index] = nums[compare]
+                    nums[compare] = temp
+                    
+                    for m in length - compareLength ..< nums.count {
+                        for n in m + 1 ..< nums.count {
+                            if nums[m] > nums[n] {
+                                let temp2 = nums[m]
+                                nums[m] = nums[n]
+                                nums[n] = temp2
+                            }
+                        }
                     }
+                    
+                    return
                 }
             }
-            
+            compareLength += 1
         }
         
         for i in 0 ..< nums.count {
