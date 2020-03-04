@@ -34,7 +34,8 @@ class ViewController: UITableViewController {
                                             SubjectModel.initWith(title: "18. 4 Sum", className: "FourSumViewController"),
                                             SubjectModel.initWith(title: "26. 删除排序数组中额重复项", className: "Q26ViewController"),
                                             SubjectModel.initWith(title: "31. 下一个排列", className: "Q31ViewController"),
-                                            SubjectModel.initWith(title: "33. 搜索旋转排序数组", className: "Q33ViewController")
+                                            SubjectModel.initWith(title: "33. 搜索旋转排序数组", className: "Q33ViewController"),
+                                            SubjectModel.initWith(title: "34. 在排序数组中查找元素的第一个和最后一个位置", className: "Q34ViewController")
                                             ]
     let UITableViewCellReuseId = "ViewController.UITableViewCell"
     
