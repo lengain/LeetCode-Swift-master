@@ -33,8 +33,8 @@ class ViewController: UITableViewController {
                                             SubjectModel.initWith(title: "16. 3 Sum closest", className: "ThressSumClosestViewController"),
                                             SubjectModel.initWith(title: "18. 4 Sum", className: "FourSumViewController"),
                                             SubjectModel.initWith(title: "26. 删除排序数组中额重复项", className: "Q26ViewController"),
-                                            SubjectModel.initWith(title: "31. 下一个排列", className: "Q31ViewController")
-
+                                            SubjectModel.initWith(title: "31. 下一个排列", className: "Q31ViewController"),
+                                            SubjectModel.initWith(title: "33. 搜索旋转排序数组", className: "Q33ViewController")
                                             ]
     let UITableViewCellReuseId = "ViewController.UITableViewCell"
     
