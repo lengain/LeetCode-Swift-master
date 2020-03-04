@@ -14,7 +14,8 @@ class Q33ViewController: LNBaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        print(self.search([4,5,6,7,8,1,2,3], 7))
+        print(self.search2([4,5,6,7,0,1,2], 3))
+        print(self.search2([4,5,6,7,8,1,2,3], 7))
     }
     
     // 参考https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/ji-jian-solution-by-lukelee/
@@ -32,6 +33,39 @@ class Q33ViewController: LNBaseViewController {
         return left == right && nums[left] == target ? left : -1
     }
     
+    //要求是事件复杂度是 N(logN)，可以使用二分查找
+    func search2(_ nums: [Int], _ target: Int) -> Int {
+        
+        var rotateIndex = -1
+        for i in 0 ..< nums.count - 2 {
+            if nums[i] > nums[i + 1] {
+                rotateIndex = i + 1
+                break
+            }
+        }
+        if nums[0] <= target {
+            return self.binarySearch(left: 0, right: rotateIndex - 1, nums: nums, target: target)
+        }else {
+            return self.binarySearch(left: rotateIndex, right: nums.count - 1, nums: nums, target: target)
+        }
+    }
+    
+    func binarySearch(left:Int,right:Int,nums:[Int],target:(Int)) -> Int {
+        var index = -1;
+        var l = left
+        var r = right
+        while l < r {
+            index = (l + r) / 2
+            if nums[index] > target {
+                r = index
+            }else if (nums[index] < target) {
+                l = index
+            }else {
+                return index
+            }
+        }
+        return index
+    }
 
     /*
     // MARK: - Navigation
