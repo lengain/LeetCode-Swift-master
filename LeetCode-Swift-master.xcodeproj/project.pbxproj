@@ -16,6 +16,7 @@
 		33CE8253240C043600AB5384 /* Q31ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE8252240C043600AB5384 /* Q31ViewController.swift */; };
 		33F2AEFC240E95D900EA8CC7 /* Q33ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2AEFB240E95D900EA8CC7 /* Q33ViewController.swift */; };
 		33F2AEFE240FEEEB00EA8CC7 /* Q34ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2AEFD240FEEEB00EA8CC7 /* Q34ViewController.swift */; };
+		33F2AF042411514D00EA8CC7 /* Q35ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2AF032411514D00EA8CC7 /* Q35ViewController.swift */; };
 		EC392833223A385100E23E3A /* LNBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC392832223A385100E23E3A /* LNBaseViewController.swift */; };
 		EC392835223A4AC300E23E3A /* LongestSubstringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC392834223A4AC300E23E3A /* LongestSubstringViewController.swift */; };
 		EC392839223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC392838223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift */; };
@@ -57,6 +58,7 @@
 		33CE8252240C043600AB5384 /* Q31ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q31ViewController.swift; sourceTree = "<group>"; };
 		33F2AEFB240E95D900EA8CC7 /* Q33ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q33ViewController.swift; sourceTree = "<group>"; };
 		33F2AEFD240FEEEB00EA8CC7 /* Q34ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q34ViewController.swift; sourceTree = "<group>"; };
+		33F2AF032411514D00EA8CC7 /* Q35ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q35ViewController.swift; sourceTree = "<group>"; };
 		EC392832223A385100E23E3A /* LNBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNBaseViewController.swift; sourceTree = "<group>"; };
 		EC392834223A4AC300E23E3A /* LongestSubstringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringViewController.swift; sourceTree = "<group>"; };
 		EC392838223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSortedArrayMedianViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				33CE8252240C043600AB5384 /* Q31ViewController.swift */,
 				33F2AEFB240E95D900EA8CC7 /* Q33ViewController.swift */,
 				33F2AEFD240FEEEB00EA8CC7 /* Q34ViewController.swift */,
+				33F2AF032411514D00EA8CC7 /* Q35ViewController.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				ECDC922E21EC8DAC00C5FE89 /* AddTwoNumbersViewController.swift in Sources */,
 				ECD2C7BC21EC716600C21242 /* AppDelegate.swift in Sources */,
 				33F2AEFE240FEEEB00EA8CC7 /* Q34ViewController.swift in Sources */,
+				33F2AF042411514D00EA8CC7 /* Q35ViewController.swift in Sources */,
 				33CE824F240A9B1800AB5384 /* Q26ViewController.swift in Sources */,
 				EC392835223A4AC300E23E3A /* LongestSubstringViewController.swift in Sources */,
 				33F2AEFC240E95D900EA8CC7 /* Q33ViewController.swift in Sources */,
