@@ -17,7 +17,7 @@ class Q40ViewController: LNBaseViewController {
         print(self.combinationSum2([2,5,2,1,2], 5))
         print(self.combinationSum2([10,1,2,7,6,1,5], 8))
     }
-    
+    //回溯法+去重
     func combinationSum2(_ candidates: [Int], _ target: Int) -> [[Int]] {
         var result = [[Int]].init()
         //[1,2,2,2,5] = 5
@@ -31,7 +31,7 @@ class Q40ViewController: LNBaseViewController {
     func combination(_ candidates: [Int], startIndex: Int, _ target: Int, limit:Bool, callBack:(([Int]) -> ())) {
         
         for i in startIndex ..< candidates.count {
-            //去重
+            //去重 同一级的跳过，继续
             if i > startIndex {
                 if candidates[i] == candidates[i - 1] {
                     continue

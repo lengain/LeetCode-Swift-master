@@ -38,7 +38,8 @@ class ViewController: UITableViewController {
                                             SubjectModel.initWith(title: "34. 在排序数组中查找元素的第一个和最后一个位置", className: "Q34ViewController"),
                                             SubjectModel.initWith(title: "35. 搜索插入位置", className: "Q35ViewController"),
                                             SubjectModel.initWith(title: "39. 组合总和", className: "Q39ViewController"),
-                                            SubjectModel.initWith(title: "40. 组合总和II", className: "Q40ViewController")
+                                            SubjectModel.initWith(title: "40. 组合总和II", className: "Q40ViewController"),
+                                            SubjectModel.initWith(title: "41. 缺失的第一个正数", className: "Q41ViewController")
                                             ]
     let UITableViewCellReuseId = "ViewController.UITableViewCell"
     
