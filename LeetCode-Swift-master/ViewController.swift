@@ -23,30 +23,33 @@ class SubjectModel: NSObject {
 class ViewController: UITableViewController {
     
     let dataSource : [SubjectModel] = [
-                                            SubjectModel.initWith(title: "1. Two Sum", className: "TwoSumViewController"),
-                                            SubjectModel.initWith(title: "2. Add Two Numbers", className: "AddTwoNumbersViewController"),
-                                            SubjectModel.initWith(title: "3. Longest Substring Without Repeating Characters", className: "LongestSubstringViewController"),
-                                            SubjectModel.initWith(title: "? 4. Median of Two Sorted Arrays", className: "TwoSortedArrayMedianViewController"),
-                                            SubjectModel.initWith(title: "5. Longest Palindromic Substring", className: "LongestPalindromicSubstringViewController"),
-                                            SubjectModel.initWith(title: "11. Container With Most Water", className: "LNContainerWaterViewController"),
-                                            SubjectModel.initWith(title: "15. 3 Sum", className: "ThreeSumViewController"),
-                                            SubjectModel.initWith(title: "16. 3 Sum closest", className: "ThressSumClosestViewController"),
-                                            SubjectModel.initWith(title: "18. 4 Sum", className: "FourSumViewController"),
-                                            SubjectModel.initWith(title: "26. 删除排序数组中额重复项", className: "Q26ViewController"),
-                                            SubjectModel.initWith(title: "31. 下一个排列", className: "Q31ViewController"),
-                                            SubjectModel.initWith(title: "33. 搜索旋转排序数组", className: "Q33ViewController"),
-                                            SubjectModel.initWith(title: "34. 在排序数组中查找元素的第一个和最后一个位置", className: "Q34ViewController"),
-                                            SubjectModel.initWith(title: "35. 搜索插入位置", className: "Q35ViewController"),
-                                            SubjectModel.initWith(title: "39. 组合总和", className: "Q39ViewController"),
-                                            SubjectModel.initWith(title: "40. 组合总和II", className: "Q40ViewController"),
-                                            SubjectModel.initWith(title: "41. 缺失的第一个正数", className: "Q41ViewController")
-                                            ]
+        SubjectModel.initWith(title: "42. 接雨水", className: "Q42ViewController"),
+        SubjectModel.initWith(title: "41. 缺失的第一个正数", className: "Q41ViewController"),
+        SubjectModel.initWith(title: "40. 组合总和II", className: "Q40ViewController"),
+        SubjectModel.initWith(title: "39. 组合总和", className: "Q39ViewController"),
+        SubjectModel.initWith(title: "35. 搜索插入位置", className: "Q35ViewController"),
+        SubjectModel.initWith(title: "34. 在排序数组中查找元素的第一个和最后一个位置", className: "Q34ViewController"),
+        SubjectModel.initWith(title: "33. 搜索旋转排序数组", className: "Q33ViewController"),
+        SubjectModel.initWith(title: "31. 下一个排列", className: "Q31ViewController"),
+        SubjectModel.initWith(title: "26. 删除排序数组中额重复项", className: "Q26ViewController"),
+        SubjectModel.initWith(title: "18. 4 Sum", className: "FourSumViewController"),
+        SubjectModel.initWith(title: "16. 3 Sum closest", className: "ThressSumClosestViewController"),
+        SubjectModel.initWith(title: "15. 3 Sum", className: "ThreeSumViewController"),
+        SubjectModel.initWith(title: "11. Container With Most Water", className: "LNContainerWaterViewController"),
+        SubjectModel.initWith(title: "5. Longest Palindromic Substring", className: "LongestPalindromicSubstringViewController"),
+        SubjectModel.initWith(title: "? 4. Median of Two Sorted Arrays", className: "TwoSortedArrayMedianViewController"),
+        SubjectModel.initWith(title: "3. Longest Substring Without Repeating Characters", className: "LongestSubstringViewController"),
+        SubjectModel.initWith(title: "2. Add Two Numbers", className: "AddTwoNumbersViewController"),
+        SubjectModel.initWith(title: "1. Two Sum", className: "TwoSumViewController"),
+    ]
+
     let UITableViewCellReuseId = "ViewController.UITableViewCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.tableView .register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCellReuseId);
+
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
