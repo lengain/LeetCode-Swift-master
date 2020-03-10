@@ -13,6 +13,7 @@
 		33B582EC23692601007146BA /* ThreeSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B582EB23692601007146BA /* ThreeSumViewController.swift */; };
 		33B582EE2369888D007146BA /* ThressSumClosestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B582ED2369888D007146BA /* ThressSumClosestViewController.swift */; };
 		33B582F0236ADDC1007146BA /* FourSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B582EF236ADDC1007146BA /* FourSumViewController.swift */; };
+		33B845222417E05E001E8FBE /* Q45ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B845212417E05E001E8FBE /* Q45ViewController.swift */; };
 		33CE824F240A9B1800AB5384 /* Q26ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE824E240A9B1800AB5384 /* Q26ViewController.swift */; };
 		33CE8253240C043600AB5384 /* Q31ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE8252240C043600AB5384 /* Q31ViewController.swift */; };
 		33D941EA2412411F00834A2E /* Q39ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D941E92412411F00834A2E /* Q39ViewController.swift */; };
@@ -59,6 +60,7 @@
 		33B582EB23692601007146BA /* ThreeSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumViewController.swift; sourceTree = "<group>"; };
 		33B582ED2369888D007146BA /* ThressSumClosestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThressSumClosestViewController.swift; sourceTree = "<group>"; };
 		33B582EF236ADDC1007146BA /* FourSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSumViewController.swift; sourceTree = "<group>"; };
+		33B845212417E05E001E8FBE /* Q45ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q45ViewController.swift; sourceTree = "<group>"; };
 		33CE824E240A9B1800AB5384 /* Q26ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q26ViewController.swift; sourceTree = "<group>"; };
 		33CE8252240C043600AB5384 /* Q31ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q31ViewController.swift; sourceTree = "<group>"; };
 		33D941E92412411F00834A2E /* Q39ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q39ViewController.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				33F2AF052413898800EA8CC7 /* Q40ViewController.swift */,
 				33F2AF072415421000EA8CC7 /* Q41ViewController.swift */,
 				332713782416107800D8AE53 /* Q42ViewController.swift */,
+				33B845212417E05E001E8FBE /* Q45ViewController.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				335C17F2229573B200182641 /* LongestPalindromicSubstringViewController.swift in Sources */,
 				ECD2C7F321EC754600C21242 /* TwoSumViewController.swift in Sources */,
 				ECD2C7BE21EC716600C21242 /* ViewController.swift in Sources */,
+				33B845222417E05E001E8FBE /* Q45ViewController.swift in Sources */,
 				EC392833223A385100E23E3A /* LNBaseViewController.swift in Sources */,
 				33B582F0236ADDC1007146BA /* FourSumViewController.swift in Sources */,
 				33F2AF082415421000EA8CC7 /* Q41ViewController.swift in Sources */,
