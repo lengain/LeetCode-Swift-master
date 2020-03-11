@@ -14,13 +14,30 @@ class Q45ViewController: LNBaseViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        print(self.jump([5,2,1,2,1,5]))
+        print(self.jump([2,3,1,1,4]))
         print(self.jump([5,4,1,2]))
         print(self.jump([2,0,2]))
     }
     
     func jump(_ nums: [Int]) -> Int {
+        if nums.count < 2 {
+            return 0
+        }
+        let count = nums.count
 
-        return 0
+        var step = 0
+        var maxDistance = 0
+        var border = 0
+        for i in 0 ..< count {
+            maxDistance = max(maxDistance, nums[i] + i)
+            if i == border {
+                border = maxDistance
+                step += 1
+                if maxDistance >= count - 1 {
+                    break;
+                }
+            }
+        }
+        return step
     }
 }
