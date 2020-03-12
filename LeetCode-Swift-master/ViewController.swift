@@ -23,6 +23,7 @@ class SubjectModel: NSObject {
 class ViewController: UITableViewController {
     
     let dataSource : [SubjectModel] = [
+        SubjectModel.initWith(title: "53. 最大子序和", className: "Q53ViewController"),
         SubjectModel.initWith(title: "48. 旋转图像", className: "Q48ViewController"),
         SubjectModel.initWith(title: "45. 跳跃游戏2", className: "Q45ViewController"),
         SubjectModel.initWith(title: "42. 接雨水", className: "Q42ViewController"),

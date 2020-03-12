@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		332713792416107800D8AE53 /* Q42ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332713782416107800D8AE53 /* Q42ViewController.swift */; };
 		332713872418E1E800D8AE53 /* Q48ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332713862418E1E800D8AE53 /* Q48ViewController.swift */; };
+		33271389241A134100D8AE53 /* Q53ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33271388241A134100D8AE53 /* Q53ViewController.swift */; };
 		335C17F2229573B200182641 /* LongestPalindromicSubstringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335C17F1229573B200182641 /* LongestPalindromicSubstringViewController.swift */; };
 		33B582EA23682DC6007146BA /* LNContainerWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B582E923682DC6007146BA /* LNContainerWaterViewController.swift */; };
 		33B582EC23692601007146BA /* ThreeSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B582EB23692601007146BA /* ThreeSumViewController.swift */; };
@@ -57,6 +58,7 @@
 /* Begin PBXFileReference section */
 		332713782416107800D8AE53 /* Q42ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q42ViewController.swift; sourceTree = "<group>"; };
 		332713862418E1E800D8AE53 /* Q48ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q48ViewController.swift; sourceTree = "<group>"; };
+		33271388241A134100D8AE53 /* Q53ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q53ViewController.swift; sourceTree = "<group>"; };
 		335C17F1229573B200182641 /* LongestPalindromicSubstringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstringViewController.swift; sourceTree = "<group>"; };
 		33B582E923682DC6007146BA /* LNContainerWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNContainerWaterViewController.swift; sourceTree = "<group>"; };
 		33B582EB23692601007146BA /* ThreeSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumViewController.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				332713782416107800D8AE53 /* Q42ViewController.swift */,
 				33B845212417E05E001E8FBE /* Q45ViewController.swift */,
 				332713862418E1E800D8AE53 /* Q48ViewController.swift */,
+				33271388241A134100D8AE53 /* Q53ViewController.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				33F2AF062413898800EA8CC7 /* Q40ViewController.swift in Sources */,
 				EC392835223A4AC300E23E3A /* LongestSubstringViewController.swift in Sources */,
 				33F2AEFC240E95D900EA8CC7 /* Q33ViewController.swift in Sources */,
+				33271389241A134100D8AE53 /* Q53ViewController.swift in Sources */,
 				EC392839223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift in Sources */,
 				33CE8253240C043600AB5384 /* Q31ViewController.swift in Sources */,
 				33D941EA2412411F00834A2E /* Q39ViewController.swift in Sources */,
