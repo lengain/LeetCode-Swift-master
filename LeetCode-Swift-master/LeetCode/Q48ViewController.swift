@@ -15,68 +15,71 @@ class Q48ViewController: LNBaseViewController {
 
         // Do any additional setup after loading the view.
         
+        
         var matrix = [
+            [1,2,3,4],
+            [5,6,7,8],
+            [9,10,11,12],
+            [13,14,15,16],
+        ]
+        self.rotate(&matrix)
+        /*
+         out matrix = [
+             [13,9,5,1],
+             [14,10,6,2],
+             [15,11,7,3],
+             [16,12,8,4],
+         ]
+         */
+        print(matrix)
+        
+        var matrix1 = [
             [1,2,3],
             [4,5,6],
             [7,8,9]
         ]
-        self.rotate(&matrix)
+        self.rotate(&matrix1)
         /*
+         first
+         
+         out matrix = [
+             [1,4,7],
+             [2,5,8],
+             [3,6,9]
+         ]
+         
          out matrix = [
              [7,4,1],
              [8,5,2],
              [9,6,3]
          ]
          */
-        print(matrix)
+        print(matrix1)
     }
     
     
     func rotate(_ matrix: inout [[Int]]) {
-        /*
-         发现规律
-         a[0][0] -> a[0][2]
-         a[0][1] -> a[1][2]
-         a[0][2] -> a[3][2]
-         a[i][j] -> a[j][a.count - 1 - i]
-         开始交换时
-         
-         a[0][0] -> a[0][2]
-         a[0][2] -> a[2][2]
-         a[2][2] -> a[2][0]
-         a[2][0] -> a[0][0]
-          */
-        let row = matrix.count - 1
-//        for i in 0 ... row {
-//            let rowNums = matrix[i]
-//            for j in 0 ..< rowNums.count {
-//                print(matrix[j][row - i])
-//            }
-//        }
+      //两次转换，第一次ij互换
         
-        let firstRowArray = matrix[0]
-        
-        for line in 0 ..< firstRowArray.count {
-            var i = 0
-            var j = line
-            let firstExchangeValue = matrix[i][j]
-            var temp : Int? = nil
-            while true  {
-                let targetI = j
-                let targetJ = row - i
-                if (temp != nil) {
-                    
-                }
-                temp = matrix[targetI][targetJ]
-                if temp == firstExchangeValue {
-                    break
-                }
-                matrix[targetI][targetJ] = matrix[i][j]
-                i = targetI
-                j = targetJ
+        var temp = 0
+        let count = matrix[0].count
+        for i in 0 ..< matrix.count  {
+            for j in i ..< count {
+                temp = matrix[i][j]
+                matrix[i][j] = matrix[j][i]
+                matrix[j][i] = temp
             }
         }
+        //第二次 左右交换
         
+        for i in 0 ..< matrix.count {
+            let count = matrix[i].count
+            for j in 0 ..< count / 2 {
+                temp = matrix[i][j]
+                matrix[i][j] = matrix[i][count - 1 - j]
+                matrix[i][count - 1 - j] = temp
+            }
+        }
     }
 
     /*
