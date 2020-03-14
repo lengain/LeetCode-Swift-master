@@ -35,6 +35,10 @@ class Q54ViewController: LNBaseViewController {
         ]))
     }
     
+    /// circleCount为层数
+    /// direction目前遍历的方向，当超出边界时，向右旋转。
+    /// 旋转后的值，继续递增，但是不能超过边界。
+    /// 遍历一圈，层数加1
     func spiralOrder(_ matrix: [[Int]]) -> [Int] {
         if matrix.count == 0 {
             return[]

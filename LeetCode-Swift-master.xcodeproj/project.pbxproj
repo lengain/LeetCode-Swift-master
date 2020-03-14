@@ -17,6 +17,8 @@
 		33B582F0236ADDC1007146BA /* FourSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B582EF236ADDC1007146BA /* FourSumViewController.swift */; };
 		33B845222417E05E001E8FBE /* Q45ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B845212417E05E001E8FBE /* Q45ViewController.swift */; };
 		33B84524241BAC0D001E8FBE /* Q54ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B84523241BAC0D001E8FBE /* Q54ViewController.swift */; };
+		33B84526241BB680001E8FBE /* Q55ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B84525241BB680001E8FBE /* Q55ViewController.swift */; };
+		33B84528241BBBC9001E8FBE /* Q56ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B84527241BBBC9001E8FBE /* Q56ViewController.swift */; };
 		33CE824F240A9B1800AB5384 /* Q26ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE824E240A9B1800AB5384 /* Q26ViewController.swift */; };
 		33CE8253240C043600AB5384 /* Q31ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE8252240C043600AB5384 /* Q31ViewController.swift */; };
 		33D941EA2412411F00834A2E /* Q39ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D941E92412411F00834A2E /* Q39ViewController.swift */; };
@@ -67,6 +69,8 @@
 		33B582EF236ADDC1007146BA /* FourSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSumViewController.swift; sourceTree = "<group>"; };
 		33B845212417E05E001E8FBE /* Q45ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q45ViewController.swift; sourceTree = "<group>"; };
 		33B84523241BAC0D001E8FBE /* Q54ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q54ViewController.swift; sourceTree = "<group>"; };
+		33B84525241BB680001E8FBE /* Q55ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q55ViewController.swift; sourceTree = "<group>"; };
+		33B84527241BBBC9001E8FBE /* Q56ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56ViewController.swift; sourceTree = "<group>"; };
 		33CE824E240A9B1800AB5384 /* Q26ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q26ViewController.swift; sourceTree = "<group>"; };
 		33CE8252240C043600AB5384 /* Q31ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q31ViewController.swift; sourceTree = "<group>"; };
 		33D941E92412411F00834A2E /* Q39ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q39ViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +202,8 @@
 				332713862418E1E800D8AE53 /* Q48ViewController.swift */,
 				33271388241A134100D8AE53 /* Q53ViewController.swift */,
 				33B84523241BAC0D001E8FBE /* Q54ViewController.swift */,
+				33B84525241BB680001E8FBE /* Q55ViewController.swift */,
+				33B84527241BBBC9001E8FBE /* Q56ViewController.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -346,12 +352,14 @@
 				332713792416107800D8AE53 /* Q42ViewController.swift in Sources */,
 				ECDC922E21EC8DAC00C5FE89 /* AddTwoNumbersViewController.swift in Sources */,
 				ECD2C7BC21EC716600C21242 /* AppDelegate.swift in Sources */,
+				33B84528241BBBC9001E8FBE /* Q56ViewController.swift in Sources */,
 				33F2AEFE240FEEEB00EA8CC7 /* Q34ViewController.swift in Sources */,
 				33F2AF042411514D00EA8CC7 /* Q35ViewController.swift in Sources */,
 				33CE824F240A9B1800AB5384 /* Q26ViewController.swift in Sources */,
 				33F2AF062413898800EA8CC7 /* Q40ViewController.swift in Sources */,
 				EC392835223A4AC300E23E3A /* LongestSubstringViewController.swift in Sources */,
 				33F2AEFC240E95D900EA8CC7 /* Q33ViewController.swift in Sources */,
+				33B84526241BB680001E8FBE /* Q55ViewController.swift in Sources */,
 				33B84524241BAC0D001E8FBE /* Q54ViewController.swift in Sources */,
 				33271389241A134100D8AE53 /* Q53ViewController.swift in Sources */,
 				EC392839223B50D400E23E3A /* TwoSortedArrayMedianViewController.swift in Sources */,
