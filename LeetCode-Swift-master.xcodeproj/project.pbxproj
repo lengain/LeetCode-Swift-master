@@ -19,6 +19,7 @@
 		33B84524241BAC0D001E8FBE /* Q54ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B84523241BAC0D001E8FBE /* Q54ViewController.swift */; };
 		33B84526241BB680001E8FBE /* Q55ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B84525241BB680001E8FBE /* Q55ViewController.swift */; };
 		33B84528241BBBC9001E8FBE /* Q56ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B84527241BBBC9001E8FBE /* Q56ViewController.swift */; };
+		33B8452C241E59AC001E8FBE /* Q57ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8452B241E59AC001E8FBE /* Q57ViewController.swift */; };
 		33CE824F240A9B1800AB5384 /* Q26ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE824E240A9B1800AB5384 /* Q26ViewController.swift */; };
 		33CE8253240C043600AB5384 /* Q31ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE8252240C043600AB5384 /* Q31ViewController.swift */; };
 		33D941EA2412411F00834A2E /* Q39ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D941E92412411F00834A2E /* Q39ViewController.swift */; };
@@ -71,6 +72,7 @@
 		33B84523241BAC0D001E8FBE /* Q54ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q54ViewController.swift; sourceTree = "<group>"; };
 		33B84525241BB680001E8FBE /* Q55ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q55ViewController.swift; sourceTree = "<group>"; };
 		33B84527241BBBC9001E8FBE /* Q56ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56ViewController.swift; sourceTree = "<group>"; };
+		33B8452B241E59AC001E8FBE /* Q57ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q57ViewController.swift; sourceTree = "<group>"; };
 		33CE824E240A9B1800AB5384 /* Q26ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q26ViewController.swift; sourceTree = "<group>"; };
 		33CE8252240C043600AB5384 /* Q31ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q31ViewController.swift; sourceTree = "<group>"; };
 		33D941E92412411F00834A2E /* Q39ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q39ViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				33B84523241BAC0D001E8FBE /* Q54ViewController.swift */,
 				33B84525241BB680001E8FBE /* Q55ViewController.swift */,
 				33B84527241BBBC9001E8FBE /* Q56ViewController.swift */,
+				33B8452B241E59AC001E8FBE /* Q57ViewController.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				33CE8253240C043600AB5384 /* Q31ViewController.swift in Sources */,
 				33D941EA2412411F00834A2E /* Q39ViewController.swift in Sources */,
 				33B582EE2369888D007146BA /* ThressSumClosestViewController.swift in Sources */,
+				33B8452C241E59AC001E8FBE /* Q57ViewController.swift in Sources */,
 				332713872418E1E800D8AE53 /* Q48ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
